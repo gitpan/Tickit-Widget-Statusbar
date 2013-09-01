@@ -1,0 +1,56 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 3121254257d5bc8b19dbe47beab27afe6535de5a Changes
+SHA1 78efd4661e3594f225e561b934aa3a93f479a0ed INSTALL
+SHA1 fcecd203a27c044eb4138dc70de012aa384a2234 LICENSE
+SHA1 eb36cf599c35040e9204be513858b3b6b00243a8 MANIFEST
+SHA1 766df099d33b948aff69cc05d6e20b23052eaaf9 META.json
+SHA1 5b630026cd1d54ea21b79a016e79eafa2d200cc4 META.yml
+SHA1 83f00bc162f003bcf03211ea7009f2c271b1f559 Makefile.PL
+SHA1 859a9853d50fe2d6f1d5e9fba2daf64a78b27a46 README
+SHA1 0e554168c5ba9ead34808c003d1922646a35fad6 cpanfile
+SHA1 5abcc22bf59d1e5eb24c721a389524abe0569c86 dist.ini
+SHA1 ccce2927a49e8efca7ed0e80e6cfd6a0011efd84 examples/demo-custom.pl
+SHA1 29c049262845fe0ae7cfefdbc96c861cd8dd4e85 examples/demo.pl
+SHA1 737930d537e3ef06626dee96ba615cc06495d3f9 lib/Tickit/Widget/Statusbar.pm
+SHA1 89dbb47a5d18d90174acd329f666e6ca43f88742 lib/Tickit/Widget/Statusbar.pod
+SHA1 b52e4d791734146a391b23a6dda5323873727208 lib/Tickit/Widget/Statusbar/CPU.pm
+SHA1 0654b4169be4ee6ee547100afd95e22c70be67e7 lib/Tickit/Widget/Statusbar/CPU.pod
+SHA1 46273ade51feefa72c26cc88e57fccdffc0f9c19 lib/Tickit/Widget/Statusbar/Clock.pm
+SHA1 857614901fa2c443d0413ad6ddb676404f40e836 lib/Tickit/Widget/Statusbar/Clock.pod
+SHA1 121d6deab1bac98bb4f8eebe149c1f4ee541d0ad lib/Tickit/Widget/Statusbar/Memory.pm
+SHA1 04ae515be08bd948be1ce5864c9dfdf8fbdeb2f1 lib/Tickit/Widget/Statusbar/Memory.pod
+SHA1 cd2b6711a383f42bc66415064bbdab85aa909a66 lib/Tickit/Widget/Statusbar/WidgetList.pm
+SHA1 90f75289c4dda63c94bc5e897f4996b15d9e42dd t/00-check-deps.t
+SHA1 3b3b30f527675427f6ae78b4d3a67d66f696984a t/00-compile.t
+SHA1 6f846f7ede312098a614207bcea6fdb2207b8030 xt/author/test-eol.t
+SHA1 198d1665317c3d91e3bb81f0a3b8dad8d4d66f20 xt/release/common_spelling.t
+SHA1 c6c3c9f7fe12058b4771449dff874b1c450c982c xt/release/mojibake.t
+SHA1 9934d36e45e1143c1a54658bc48872e0591af41b xt/release/pod-syntax.t
+SHA1 fd1fa776fca35fc8f1bdd24ee3fbaa1eca755a44 xt/release/synopsis.t
+SHA1 bbcd59d081d9940af5d43337ae85458075933829 xt/release/test-version.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJSIqzBAAoJEFKElMNpjtyDED0H+QGxvQwPVEAejmoZ0CIYnofD
+1qX5JVCf7QA5C6uCWfn2awK+OPyeCww63MXIwt+19x4bezcGcSy5y3sVwg4MOFgy
+LMAFSfeswfJ4cVh31t3m79/Do6Qye5/pekGJlo1sxUsw/A+Kivr1piYYe2hIQUdQ
+bLHsUrBdIx+DSpscyQyNZK4Zx4TpN7PinfocQ8GdAIEqyRGSCIgZpKqLQzvQs8Nh
+XyZWBGa9Xc2OIwAmYq5+nts6P7z6A90ZzwN2ed0e/btQIkwTnVGx5UUNGS7ObhaQ
+YsKuNiFCRIdQjX7J+sr7OjN2xAVjN2hsj0ZNpmcH2hM8CrHIABahwBw/wlV3lNI=
+=haEI
+-----END PGP SIGNATURE-----
