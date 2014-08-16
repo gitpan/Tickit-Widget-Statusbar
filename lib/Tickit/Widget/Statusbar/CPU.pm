@@ -1,7 +1,5 @@
 package Tickit::Widget::Statusbar::CPU;
-{
-  $Tickit::Widget::Statusbar::CPU::VERSION = '0.001';
-}
+$Tickit::Widget::Statusbar::CPU::VERSION = '0.002';
 use strict;
 use warnings;
 use parent qw(Tickit::Widget);
@@ -12,7 +10,7 @@ Tickit::Widget::Statusbar::CPU - CPU usage
 
 =head1 VERSION
 
-version 0.001
+Version 0.002
 
 =head1 DESCRIPTION
 

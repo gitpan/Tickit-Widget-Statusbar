@@ -1,7 +1,5 @@
 package Tickit::Widget::Statusbar::Clock;
-{
-  $Tickit::Widget::Statusbar::Clock::VERSION = '0.001';
-}
+$Tickit::Widget::Statusbar::Clock::VERSION = '0.002';
 use strict;
 use warnings;
 use parent qw(Tickit::Widget);
@@ -12,7 +10,7 @@ Tickit::Widget::Statusbar::Clock - a simple clock implementation
 
 =head1 VERSION
 
-version 0.001
+Version 0.002
 
 =head1 DESCRIPTION
 

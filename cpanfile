@@ -5,7 +5,9 @@ requires 'Memory::Usage', 0;
 requires 'Proc::CPUUsage', 0;
 requires 'Time::HiRes', 0;
 
-requires 'Tickit', '>= 0.37';
+requires 'Tickit', '>= 0.46';
+requires 'Tickit::Widget', 0;
+requires 'Tickit::Widget::Progressbar', '>= 0.100';
 
 on 'test' => sub {
 	requires 'Test::More', '>= 0.98';

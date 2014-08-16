@@ -14,43 +14,47 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 3121254257d5bc8b19dbe47beab27afe6535de5a Changes
+SHA1 2650e53b8816378ac0a6445862d736fe88c9d98a Changes
 SHA1 78efd4661e3594f225e561b934aa3a93f479a0ed INSTALL
-SHA1 fcecd203a27c044eb4138dc70de012aa384a2234 LICENSE
-SHA1 eb36cf599c35040e9204be513858b3b6b00243a8 MANIFEST
-SHA1 766df099d33b948aff69cc05d6e20b23052eaaf9 META.json
-SHA1 5b630026cd1d54ea21b79a016e79eafa2d200cc4 META.yml
-SHA1 83f00bc162f003bcf03211ea7009f2c271b1f559 Makefile.PL
-SHA1 859a9853d50fe2d6f1d5e9fba2daf64a78b27a46 README
-SHA1 0e554168c5ba9ead34808c003d1922646a35fad6 cpanfile
-SHA1 5abcc22bf59d1e5eb24c721a389524abe0569c86 dist.ini
+SHA1 8a4fdad1020dbfd5154c3f042385ce86e2eefea2 LICENSE
+SHA1 641c9b7588dc93d51f600b418696bc6dd731241b MANIFEST
+SHA1 1cd7e0321bab72249a92f8b9184e22fbb5ca629f META.json
+SHA1 e5b79efae48d0c23379dc6f3065055eec8575334 META.yml
+SHA1 567b9c3a1bc39396f45b946677bb3d6cf58b3458 Makefile.PL
+SHA1 3dbf7a12023b63a5d4ab1aad20068103d16382d2 README
+SHA1 9b2b695c3b19e4f15d38579f1d2c48ba6d6f4310 cpanfile
+SHA1 a25182c9d3d7eb0fbfe3b8d38e87964520f51f2f dist.ini
 SHA1 ccce2927a49e8efca7ed0e80e6cfd6a0011efd84 examples/demo-custom.pl
 SHA1 29c049262845fe0ae7cfefdbc96c861cd8dd4e85 examples/demo.pl
-SHA1 737930d537e3ef06626dee96ba615cc06495d3f9 lib/Tickit/Widget/Statusbar.pm
-SHA1 89dbb47a5d18d90174acd329f666e6ca43f88742 lib/Tickit/Widget/Statusbar.pod
-SHA1 b52e4d791734146a391b23a6dda5323873727208 lib/Tickit/Widget/Statusbar/CPU.pm
-SHA1 0654b4169be4ee6ee547100afd95e22c70be67e7 lib/Tickit/Widget/Statusbar/CPU.pod
-SHA1 46273ade51feefa72c26cc88e57fccdffc0f9c19 lib/Tickit/Widget/Statusbar/Clock.pm
-SHA1 857614901fa2c443d0413ad6ddb676404f40e836 lib/Tickit/Widget/Statusbar/Clock.pod
-SHA1 121d6deab1bac98bb4f8eebe149c1f4ee541d0ad lib/Tickit/Widget/Statusbar/Memory.pm
-SHA1 04ae515be08bd948be1ce5864c9dfdf8fbdeb2f1 lib/Tickit/Widget/Statusbar/Memory.pod
-SHA1 cd2b6711a383f42bc66415064bbdab85aa909a66 lib/Tickit/Widget/Statusbar/WidgetList.pm
-SHA1 90f75289c4dda63c94bc5e897f4996b15d9e42dd t/00-check-deps.t
-SHA1 3b3b30f527675427f6ae78b4d3a67d66f696984a t/00-compile.t
-SHA1 6f846f7ede312098a614207bcea6fdb2207b8030 xt/author/test-eol.t
+SHA1 8f51db390a41f04f5d15b9375a6f81e5172384a7 examples/icon.pl
+SHA1 bff447312fd1d60d2aa2a199dae893cf3a968414 lib/Tickit/Widget/Statusbar.pm
+SHA1 974bcfe9b2d2104cff9573287d18e25f8e172e14 lib/Tickit/Widget/Statusbar.pod
+SHA1 02736793398a4dc4588e6227779a5d7f656ae59b lib/Tickit/Widget/Statusbar/CPU.pm
+SHA1 80355aeccded467624248e3e534f506bad35f5e9 lib/Tickit/Widget/Statusbar/CPU.pod
+SHA1 5408711ffaa66f410d3afdddce3e1bb019bd278b lib/Tickit/Widget/Statusbar/Clock.pm
+SHA1 2eb28b64de734160061c0418e4da2b4eb62e32bf lib/Tickit/Widget/Statusbar/Clock.pod
+SHA1 939813275e2f981eecbd80903251a928742bcc13 lib/Tickit/Widget/Statusbar/Icon.pm
+SHA1 80c79f0c7fd69f118513f74e327b85310ea6ba30 lib/Tickit/Widget/Statusbar/Icon.pod
+SHA1 9ee5aea414d4a5749f4e087fe23d148ecf76ca4f lib/Tickit/Widget/Statusbar/Memory.pm
+SHA1 323c24ccf6d148c141e7cd8695b85bca05b1e0b7 lib/Tickit/Widget/Statusbar/Memory.pod
+SHA1 bad98334467269c46345ab1eafdca40d40178d1b lib/Tickit/Widget/Statusbar/WidgetList.pm
+SHA1 985d9ded8d8ed7e344a09e52b1402e878e91da28 t/00-check-deps.t
+SHA1 6eda94c631b99f9148ea739fc410364e6bcd828e t/00-compile.t
+SHA1 4051c9376447974f05f5cf7999ce673004e907ac t/000-report-versions-tiny.t
+SHA1 f242e380d897f0430a668ea3f2938df75c0bef55 xt/author/test-eol.t
 SHA1 198d1665317c3d91e3bb81f0a3b8dad8d4d66f20 xt/release/common_spelling.t
 SHA1 c6c3c9f7fe12058b4771449dff874b1c450c982c xt/release/mojibake.t
-SHA1 9934d36e45e1143c1a54658bc48872e0591af41b xt/release/pod-syntax.t
-SHA1 fd1fa776fca35fc8f1bdd24ee3fbaa1eca755a44 xt/release/synopsis.t
+SHA1 296928dbbcaffd1514ccc9b77a1e6e03cfe9b068 xt/release/pod-syntax.t
+SHA1 34513f89a70b96f6412fe2ef0ad4d475e8cac66c xt/release/synopsis.t
 SHA1 bbcd59d081d9940af5d43337ae85458075933829 xt/release/test-version.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.12 (GNU/Linux)
+Version: GnuPG v1
 
-iQEcBAEBAgAGBQJSIqzBAAoJEFKElMNpjtyDED0H+QGxvQwPVEAejmoZ0CIYnofD
-1qX5JVCf7QA5C6uCWfn2awK+OPyeCww63MXIwt+19x4bezcGcSy5y3sVwg4MOFgy
-LMAFSfeswfJ4cVh31t3m79/Do6Qye5/pekGJlo1sxUsw/A+Kivr1piYYe2hIQUdQ
-bLHsUrBdIx+DSpscyQyNZK4Zx4TpN7PinfocQ8GdAIEqyRGSCIgZpKqLQzvQs8Nh
-XyZWBGa9Xc2OIwAmYq5+nts6P7z6A90ZzwN2ed0e/btQIkwTnVGx5UUNGS7ObhaQ
-YsKuNiFCRIdQjX7J+sr7OjN2xAVjN2hsj0ZNpmcH2hM8CrHIABahwBw/wlV3lNI=
-=haEI
+iQEcBAEBAgAGBQJT7sJBAAoJEFKElMNpjtyDoMYH/iQ+rrzj4pa8QEJ35uYfpv5t
+d39P7mGLgjEgiXWgzewL4xluhPDCHxbbxUXXhpxDWIC3KLWr9m+Hvt6U32SBmv5e
+S8/ajTo2Du4H1Msf650xHESUn77V2Spf+LcYFrhT5v3JDtcBIa0LlnJEGZ9JBWNW
+ekpwXchkDlR1NZi7zqYAAAgzLth0WsSNxLdgU8/2l65g4OPXffSC8PYSHY4bm/tq
+roY7SifdpDt+hhJOwcSJ2PkIzGMkO17CUv6LMSAKeBpLg5bZqd9TNpzPx72Aqepn
+yhJoKszWXDifOa3rn2nrLJhdeME5rc3sdTssigLAPCVglXiExy+98ZE2FJSNFZw=
+=IBsc
 -----END PGP SIGNATURE-----

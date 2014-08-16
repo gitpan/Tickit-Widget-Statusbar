@@ -1,7 +1,5 @@
 package Tickit::Widget::Statusbar::WidgetList;
-{
-  $Tickit::Widget::Statusbar::WidgetList::VERSION = '0.001';
-}
+$Tickit::Widget::Statusbar::WidgetList::VERSION = '0.002';
 use strict;
 use warnings;
 
@@ -11,7 +9,7 @@ Tickit::Widget::Statusbar::WidgetList
 
 =head1 VERSION
 
-version 0.001
+Version 0.002
 
 =head1 SYNOPSIS
 
@@ -33,7 +31,7 @@ __END__
 
 =head1 AUTHOR
 
-Tom Molesworth <cpan@entitymodel.com>
+Tom Molesworth <cpan@perlsite.co.uk>
 
 =head1 LICENSE
 

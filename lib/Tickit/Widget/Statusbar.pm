@@ -3,7 +3,8 @@ package Tickit::Widget::Statusbar;
 use strict;
 use warnings;
 use parent qw(Tickit::ContainerWidget);
-our $VERSION = 0.001;
+
+our $VERSION = 0.002;
 
 =head1 NAME
 
@@ -11,7 +12,7 @@ Tickit::Widget::Statusbar - provides a simple status bar implementation
 
 =head1 VERSION
 
-version 0.001
+Version 0.002
 
 =head1 SYNOPSIS
 
@@ -31,6 +32,7 @@ and the ability to configure things, but as yet it does not.
 =cut
 
 use curry::weak;
+use Tickit::Widget::Statusbar::Icon;
 use Tickit::Widget::Statusbar::Clock;
 use Tickit::Widget::Statusbar::CPU;
 use Tickit::Widget::Statusbar::Memory;
@@ -40,12 +42,12 @@ use Tickit::Utils qw(substrwidth textwidth);
 use Scalar::Util ();
 
 use constant WIDGET_PEN_FROM_STYLE => 1;
-use constant CAN_FOCUS => 0;
 
 BEGIN {
 	style_definition base =>
 		fg => 'white',
-		bg => 232,
+		bg => 236,
+		b => 0,
 		spacing => 1;
 
 	style_reshape_keys qw(spacing);
@@ -94,8 +96,18 @@ sub new {
 sub add {
 	my $self = shift;
 	my $w = shift;
-	push @{$self->{children}}, $w;
+	unshift @{$self->{children}}, $w;
 	$self->SUPER::add($w, @_);
+}
+
+sub add_icon {
+	my $self = shift;
+	my $txt = shift;
+	my $w = Tickit::Widget::Statusbar::Icon->new;
+	$w->set_icon($txt);
+	unshift @{$self->{children}}, $w;
+	$self->SUPER::add($w, @_);
+	$w
 }
 
 sub children_changed {
@@ -109,6 +121,12 @@ sub children_changed {
 		$child->set_window($sub);
 		$x -= $child->cols + $self->get_style_values('spacing');
 	}
+}
+
+sub reshape {
+	my $self = shift;
+	$self->children_changed;
+	$self->SUPER::reshape(@_);
 }
 
 sub window_gained {
@@ -154,7 +172,7 @@ __END__
 
 =head1 AUTHOR
 
-Tom Molesworth <cpan@entitymodel.com>
+Tom Molesworth <cpan@perlsite.co.uk>
 
 =head1 LICENSE
 
