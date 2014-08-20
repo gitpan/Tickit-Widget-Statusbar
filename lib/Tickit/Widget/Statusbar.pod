@@ -16,7 +16,7 @@ Tickit::Widget::Statusbar - provides a simple status bar implementation
 
 =head1 VERSION
 
-Version 0.002
+Version 0.003
 
 =head1 SYNOPSIS
 
@@ -68,4 +68,4 @@ Tom Molesworth <cpan@perlsite.co.uk>
 
 =head1 LICENSE
 
-Copyright Tom Molesworth 2011-2013. Licensed under the same terms as Perl itself.
+Copyright Tom Molesworth 2011-2014. Licensed under the same terms as Perl itself.

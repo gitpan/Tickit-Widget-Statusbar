@@ -24,6 +24,7 @@ requires:
   Format::Human::Bytes: '0'
   Memory::Usage: '0'
   Proc::CPUUsage: '0'
+  String::Tagged: '0.09'
   Tickit: '0.46'
   Tickit::Widget: '0'
   Tickit::Widget::Progressbar: '0.100'
@@ -33,4 +34,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Tickit-Widget-Statusbar
   homepage: http://search.cpan.org/dist/Tickit-Widget-Statusbar/
-version: '0.002'
+version: '0.003'

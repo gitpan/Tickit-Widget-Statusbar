@@ -16,7 +16,7 @@ Tickit::Widget::Statusbar::CPU - CPU usage
 
 =head1 VERSION
 
-Version 0.002
+Version 0.003
 
 =head1 DESCRIPTION
 

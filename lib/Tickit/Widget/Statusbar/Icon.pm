@@ -1,5 +1,5 @@
 package Tickit::Widget::Statusbar::Icon;
-$Tickit::Widget::Statusbar::Icon::VERSION = '0.002';
+$Tickit::Widget::Statusbar::Icon::VERSION = '0.003';
 use strict;
 use warnings;
 use utf8;
@@ -13,7 +13,7 @@ Tickit::Widget::Statusbar::Icon - an icon on the status bar
 
 =head1 VERSION
 
-Version 0.002
+Version 0.003
 
 =head1 DESCRIPTION
 

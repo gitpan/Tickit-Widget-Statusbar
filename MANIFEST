@@ -13,6 +13,7 @@ dist.ini
 examples/demo-custom.pl
 examples/demo.pl
 examples/icon.pl
+examples/status-tagged.pl
 lib/Tickit/Widget/Statusbar.pm
 lib/Tickit/Widget/Statusbar.pod
 lib/Tickit/Widget/Statusbar/CPU.pm

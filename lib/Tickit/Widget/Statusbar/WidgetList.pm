@@ -1,5 +1,5 @@
 package Tickit::Widget::Statusbar::WidgetList;
-$Tickit::Widget::Statusbar::WidgetList::VERSION = '0.002';
+$Tickit::Widget::Statusbar::WidgetList::VERSION = '0.003';
 use strict;
 use warnings;
 
@@ -9,7 +9,7 @@ Tickit::Widget::Statusbar::WidgetList
 
 =head1 VERSION
 
-Version 0.002
+Version 0.003
 
 =head1 SYNOPSIS
 

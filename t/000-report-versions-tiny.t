@@ -55,6 +55,7 @@ eval { $v .= pmver('IO::Handle','any version') };
 eval { $v .= pmver('IPC::Open3','any version') };
 eval { $v .= pmver('Memory::Usage','any version') };
 eval { $v .= pmver('Proc::CPUUsage','any version') };
+eval { $v .= pmver('String::Tagged','0.09') };
 eval { $v .= pmver('Test::CheckDeps','0.010') };
 eval { $v .= pmver('Test::Fatal','0.010') };
 eval { $v .= pmver('Test::More','0.98') };
